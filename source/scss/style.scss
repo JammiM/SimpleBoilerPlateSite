@@ -1,8 +1,12 @@
+$backgroundClr: #f4f4f4;
+$orange: #e8491d;
+$grey: #35424a;
+
 body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: $backgroundClr;
 }
 
 /* GLOBALS */
@@ -19,7 +23,7 @@ ul{
 
 .subcribeBtn{
   height: 38px;
-  background: #e8491d;
+  background: $orange;
   border: none;
   padding-left: 20px;
   padding-right: 20px;
@@ -29,12 +33,12 @@ ul{
 /* HEADER */
 header {
   background: #35424a;
-  color: #ffffff;
+  color: #fff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: $orange 3px solid;
   a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -55,7 +59,7 @@ header {
     margin-top:10px;
   }
   .highlight, .current a{
-    color: #e8491d;
+    color: $orange;
     font-weight: bold;
   }
   a:hover{
@@ -84,13 +88,15 @@ header {
 #newsletter{
   padding:15px;
   color: #fff;
-  background: #35424a;
+  background: $grey;
   h2{
     float: left;
+    margin-left: 70px;
   }
   form{
     float: right;
     margin-top: 15px;
+    margin-right: 70px;
   }
   input[type="email"]{
     padding: 4px;
@@ -98,7 +104,6 @@ header {
     width: 250px;
   }
 }
-
 
 /* BOXES */
 #boxes{
@@ -114,12 +119,11 @@ header {
   }
 }
 
-
 /* FOOTER */
 footer{
   padding: 20px;
   margin-top: 20px;
-  color: #ffffff;
-  background-color: #e8491d; 
+  color: #fff;
+  background-color: $orange;
   text-align: center;
 }
