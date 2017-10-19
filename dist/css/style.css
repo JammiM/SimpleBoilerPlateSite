@@ -79,3 +79,22 @@ header {
     padding: 4px;
     height: 25px;
     width: 250px; }
+
+/* BOXES */
+#boxes {
+  margin-top: 30px; }
+  #boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px; }
+    #boxes .box img {
+      width: 90px; }
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center; }
