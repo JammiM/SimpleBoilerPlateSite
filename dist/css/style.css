@@ -14,6 +14,12 @@ ul {
   margin: 0;
   padding: 0; }
 
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #fff;
+  margin: 10px 0 10px 0; }
+
 .subcribeBtn {
   height: 38px;
   background: #e8491d;
@@ -92,6 +98,16 @@ header {
     padding: 10px; }
     #boxes .box img {
       width: 90px; }
+
+/* SIDEBAR */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px; }
+
+article#main-col {
+  float: left;
+  width: 65%; }
 
 /* FOOTER */
 footer {
