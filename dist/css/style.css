@@ -131,13 +131,23 @@ footer {
 
 /* MEDIA-QUERIES */
 @media (max-width: 768px) {
-  header #branding,
-  header nav,
-  header nav li,
-  #newsletter h1, #newsletter form,
-  #boxes .box,
-  article#main-col,
-  aside#sidebar {
+  header #branding {
+    float: none;
+    text-align: center;
+    width: 100%; }
+  header nav {
+    float: none;
+    text-align: center;
+    width: 100%; }
+    header nav li {
+      float: none;
+      text-align: center;
+      width: 100%; }
+  #newsletter h1, #newsletter form {
+    float: none;
+    text-align: center;
+    width: 100%; }
+  #boxes .box, article#main-col, aside#sidebar {
     float: none;
     text-align: center;
     width: 100%; }
@@ -148,6 +158,9 @@ footer {
   #newsletter button, .quote button {
     display: block;
     width: 100%; }
-  #newsletter form input[type="email"], .qoute input, .qoute textarea {
+  #newsletter form input[type="email"] {
+    margin-bottom: 5px;
+    width: 100%; }
+  .qoute input, .qoute textarea {
     margin-bottom: 5px;
     width: 100%; } }
