@@ -1,0 +1,72 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width')
+    title James Design | Services
+    link(rel='stylesheet', href='css/style.css')
+  body
+    header
+      .container
+        #branding
+          h1
+            span.highlight James
+            |  Web Design
+        nav
+          ul
+            li
+              a(href='index.html') Home
+            li
+              a(href='index.html') About
+            li.current
+              a(href='index.html') Services
+            li
+              a(href='index.html') Home
+      // container
+    section#newsletter
+      .container
+        h2 Subscribe to our News letter
+        form(action='#')
+          input(required='', type='email', placeholder='Enter email...')
+          button.subcribeBtn(type='submit') Subscribe
+    section#main
+      .container
+        article#main-col
+          h1.page-title Services
+          ul#services
+            li 
+              h3 ddd
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quod odio nam. Numquam dignissimos voluptate corporis! Enim veniam officia tenetur pariatur alias doloribus voluptatibus, nobis impedit eveniet obcaecati! Quidem, perspiciatis.
+              p Price
+            li 
+              h3 ddd
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quod odio nam. Numquam dignissimos voluptate corporis! Enim veniam officia tenetur pariatur alias doloribus voluptatibus, nobis impedit eveniet obcaecati! Quidem, perspiciatis.
+              p Price
+            li 
+              h3 ddd
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quod odio nam. Numquam dignissimos voluptate corporis! Enim veniam officia tenetur pariatur alias doloribus voluptatibus, nobis impedit eveniet obcaecati! Quidem, perspiciatis.
+              p Price
+            li 
+              h3 ddd
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quod odio nam. Numquam dignissimos voluptate corporis! Enim veniam officia tenetur pariatur alias doloribus voluptatibus, nobis impedit eveniet obcaecati! Quidem, perspiciatis.
+              p Price
+        aside#sidebar.dark
+          h3 Get Quote
+          form.quote
+            div
+              label Name
+              br
+              input(type='text' required placeholder='Name')
+            div  
+              label Email
+              br
+              input(type='email' required placeholder='Email')
+            div  
+              label Message
+              br
+              input(type='textarea' required placeholder='Message')
+            div
+              button.subcribeBtn(type='submit') Get Quote
+        
+    footer
+      p James Web Design, Copyright © 2017

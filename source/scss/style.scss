@@ -132,6 +132,10 @@ aside#sidebar{
   float: right;
   width: 30%;
   margin-top: 10px;
+  .quote input, .quote textarea{
+    width: 90%;
+    padding: 5px;
+  }
 }
 
 article#main-col{
@@ -139,6 +143,15 @@ article#main-col{
   width: 65%;
 }
 
+
+/* SERVICES */
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
 
 
 
